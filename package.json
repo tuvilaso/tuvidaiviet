@@ -1,0 +1,20 @@
+{
+  "name": "tuvi-daiviet-ai",
+  "version": "1.0.0",
+  "description": "Hệ thống luận giải tử vi chuyên nghiệp sử dụng Gemini AI",
+  "main": "index.tsx",
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "keywords": [
+    "astrology",
+    "tu vi",
+    "gemini-ai",
+    "react",
+    "vietnam"
+  ],
+  "author": "Tử Vi Đại Việt Team",
+  "license": "MIT"
+}
