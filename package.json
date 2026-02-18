@@ -2,11 +2,20 @@
   "name": "tuvi-daiviet-ai",
   "version": "1.0.0",
   "description": "Hệ thống luận giải tử vi chuyên nghiệp sử dụng Gemini AI",
-  "main": "index.tsx",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@google/genai": "^1.41.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   },
   "keywords": [
     "astrology",
